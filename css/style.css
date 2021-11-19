@@ -1,0 +1,343 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1, h2. h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*******************************************************/
+/*////////////////////////////////////////////////*/
+.header{
+	width: 100%;
+	background: #F0FFF0;
+}
+.header .bg-light{
+	background:transparent !important;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 0px 0px 16px;
+
+}
+.header .navbar-light .navbar-nav .nav-link:hover{
+    color: #21B572;
+
+
+}
+.header .navbar .btn-success {
+    color: #fff;
+    background-color: #21B572;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 33px;
+    border-color: #21B573;
+    padding:8px 35px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 0px 30px;
+}
+.header .navbar .btn-success:hover, .header .navbar .btn-success:focus{
+	color: #21B573;
+    background-color:transparent;
+    border-color: #21B573;
+
+}
+
+/*////////////////////////////////*/
+/********************************/
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.banner .col-lg-6 h5{
+	color: #FD511A;
+	font-size: 18px;
+    line-height: 28px;
+	font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+.banner .col-lg-6 h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+	
+}
+.banner .col-lg-6 h1 span{
+	color:  #21B572;
+}
+.banner .col-lg-6 p{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 36px;
+}
+.banner .col-lg-6 .btn{
+	background: #21B573;
+    border: 1px solid #21B573;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    margin: 35px 0px 0px 0px;
+
+
+}
+.banner .col-lg-6 .btn:hover, .banner .col-lg-6 .btn:focus{
+    color: #21B573;
+    background-color:transparent;
+    border-color: #21B573
+}
+/**********************************/
+/*///////////////////////////////////*/
+.feature{
+	width: 100%;
+	padding: 90px 0px;
+}
+.feature .inner-feature{
+	width: 100%;
+	padding: 40px 25px;
+	text-align: center;
+	background:#F8FFFB;
+	border-radius: 10px;
+}
+.feature .inner-feature img{
+	width: 85px;
+	height: 85px;
+	margin: 0px 0px 25px 0px;
+
+}
+.feature .inner-feature h2{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    margin: 0px;
+
+}
+.feature .inner-feature p{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+	margin: 0px;
+}
+
+.feature .inner-feature:hover{
+	background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.feature .active{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+/******************************************/
+/*///////////////////////////////////////////*/
+.Online-Courses{
+	width: 100%;
+	padding: 0px 0px 50px 0px;
+}
+.Online-Courses .col-lg-12 h1{
+	text-align: center;
+	font-size: ;
+	color: #413960;
+	font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 50px 0px;
+    text-transform: capitalize;
+}
+.Online-Courses .card p img{
+	width:15px;
+	color: #000;
+	margin: 0px 4px 5px 0px;
+
+}
+.Online-Courses .card{
+	width: 100%;
+	padding: 25px;
+	background: #FFFFFF;
+	border: 0px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+
+}
+.Online-Courses .card .card-body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.Online-Courses .card .card-body .card-title{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color:#413960 ;
+    margin: 15px 0px;
+
+}
+
+.Online-Courses .card .card-body .card-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.Online-Courses .card .card-body .btn-success{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+   background: #21B573;
+   border-radius: 33px;
+   border-color:#21B573 ;
+}
+.Online-Courses .card .card-body .btn-success:hover, .Online-Courses .card .card-body .btn-success:focus{
+	color: #21B573;
+    background-color:transparent;
+    border-color: #21B573;
+}
+
+.Online-Courses .card .card-body .col-sm-8 .date p{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 500;
+    font-family: Poppins;
+    font-style: normal;
+    color:  #585859;
+    margin: 40px 0px 0px 2px;
+
+
+}
+.Online-Courses .card .card-body .col-sm-4 .seat p{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 500;
+    font-family: Poppins;
+    font-style: normal;
+    color: #585859;
+    margin: 40px 0px 0px 2px;
+
+ }
+ /*//////////////////////////////*/
+ /*********************************/
+ .Testimonial{
+ 	width: 100%;
+ 	padding: 10px 0px 50px 0px ;
+ }
+.Testimonial .title{
+	text-align: center;
+	padding: 20px 0px;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+.Testimonial img{
+	width: 120px;
+	height: 120px;
+	border-radius:100% ;
+}
+.Testimonial p{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+	margin: 25px 0px 0px 0px;
+
+}
+/*//////////////////////////*/
+/******************************/
+.footer{
+	width: 100%;
+	padding: 20px 0px;
+	background:#282531;
+}
+.footer p{
+	color: #fff;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 40px 0px 0px 0px;
+}
+.footer .widget{
+	width: 100%;
+	margin: 35px 0px 0px 0px;
+}
+.footer .widget h5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+.footer .widget ul{
+	padding: 0px;
+	color: #fff;
+}
+.footer .widget li{
+	list-style-type: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:24px;
+	cursor: pointer !important;
+
+
+}
+.footer .widget li a{
+	text-decoration: none;
+	color: #fff;
+
+}
+.footer .copyright{
+	text-transform: capitalize;
+	text-align: center;
+	color: #CDCDCD;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
